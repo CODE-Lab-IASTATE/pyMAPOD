@@ -54,9 +54,9 @@ def pod_view(mu, sigma, pcov):
     ax.set_xscale('log')
     # ax.set_xlim([min(a_pod), max(a_pod)])
     ax.plot(a_pod, p, 'k', linewidth=1)
-    ax.plot(a_pod_95, p, 'k--', linewidth=0.5)
+    #ax.plot(a_pod_95, p, 'k--', linewidth=0.5)
     ax.set_xlabel('Size, a (mm)', **csfont)
-    ax.set_ylabel('Porbability of Detection, POD | a', **csfont)
+    ax.set_ylabel('Probability of Detection, POD | a', **csfont)
     
     # ax.set_xticks([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0])
     # ax.set_xticklabels(['$10^{-1}$', 2, 3, 4, 5, 6, 7, 8, 9, '$10^0$'])
